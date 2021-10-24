@@ -1,0 +1,29 @@
+header {
+    background-color: greenyellow;
+    height: 100px;
+}
+
+main {
+    background-color: indianred;
+    height: 500px;
+}
+
+aside {
+    background-color: rebeccapurple;
+    height: 500px;
+    width: 30%;
+    float: left;
+}
+
+article {
+    background-color: seagreen;
+    height: 500px;
+    width: 70%;
+    float: left;
+}
+
+footer {
+    background-color: slategray;
+    height: 100px;
+}
+
