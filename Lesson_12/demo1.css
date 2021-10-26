@@ -1,0 +1,39 @@
+/* Chọn tất cả các thẻ h3 là con, cháu của d1 */
+/* .d1 h3 {
+    color: red;
+} */
+
+
+/* Chọn tất cả thẻ h3 là con của d1 */
+
+.d1 > div > h3 {
+    color: rgb(255, 30, 30);
+}
+
+
+/* Chọn tất cả anh chị em kế cận của d1 */
+
+.d1 + h3 {
+    color: seagreen;
+}
+
+
+/* Chọn tất cả anh chị em chung cả d1 */
+
+.d1 ~ h3 {
+    color: slateblue;
+}
+
+a:hover {
+    color: red;
+}
+
+p::first-letter {
+    font-size: larger;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p::after {
+    content: "Đây là nội dung sau thẻ p";
+}

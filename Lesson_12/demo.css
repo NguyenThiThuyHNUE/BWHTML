@@ -1,0 +1,48 @@
+/* .demo {
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    transition: width 2s, height 3s, transform 3s;
+}
+.demo:hover {
+    width: 300px;
+    height: 300px;
+    color: darkcyan;
+    transform: rotate(180deg) ;
+} */
+
+
+.demo1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+@keyframes example {
+    from {left:0px;}
+    to {left: 160px;}
+  }
+
+/* Chọn các thẻ h6 là con của thẻ div.demo2
+.demo2 h3{
+    color:darkorange
+}
+
+/* Chọn con cấp 1 của thẻ div.demo2 */
+.demo2 > h3 {
+    color: darkslategray;
+}
+
+/* Chọn anh em kế cận ngay sau của thẻ div.demo2 */
+
+.demo2 +h3{
+    color: firebrick;
+}
+
+/* Chọn tất cả các anh em cùng cho của thẻ div.demo2 */
+.demo2 ~h3 {
+    color: hotpink;
+} */

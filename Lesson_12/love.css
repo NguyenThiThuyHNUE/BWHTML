@@ -4,9 +4,9 @@ p {
     color: coral;
 }
 div.child {
-    display: none;
-    
+    display: none; 
 }
+
 
 div.parent:hover div.child{
     display: block
