@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 header {
     background-color: tomato;
     height: 100px;
@@ -15,7 +18,7 @@ main {
 
 .left {
     width: 20%;
-    background-color: teal;
+    background-color: rgb(203, 235, 235);
 }
 
 .content {
@@ -42,6 +45,10 @@ ul li {
     margin: 10px;
     padding: 5px;
     background-color: rgb(255, 255, 255);
+}
+
+.content {
+    padding: 20px;
 }
 
 @media screen and (max-width:500px){
