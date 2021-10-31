@@ -51,8 +51,8 @@ li:hover {
 }
 
 
-.row::after {
+/* .row::after {
     content: "";
     clear: both;
     display: table;
-}
+} */
