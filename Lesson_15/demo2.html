@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+            background-color: rgb(219, 187, 163);
+            padding: 20px;
+        }
+
+        .item {
+            background-color: salmon;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .i1 {
+            /* grid-column-start: 1;
+            grid-column-end: 4; */
+
+            grid-column: 1 / 4;
+        }
+
+        .i3 {
+            grid-column: 2 / 4;
+        }
+
+        .i4 {
+            grid-column: 1/4;
+        }
+
+        .i6 {
+            grid-area: 4/2/6/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item i1">Header</div>
+        <div class="item i2">Sidebar</div>
+        <div class="item i3">Content</div>
+        <div class="item i4">Footer</div>
+        <div class="item">5</div>
+        <div class="item i6">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+    </div>
+</body>
+</html>
