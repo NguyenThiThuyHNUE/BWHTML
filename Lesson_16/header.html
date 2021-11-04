@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            display: flex;
+            background-color: khaki;
+        }
+        .logout {
+            margin-left: auto;
+        }
+
+
+        .container{
+            display: grid;
+            grid-template-rows: 500px 100px;
+            grid-template-areas: 
+            'about about title title title'
+            'footer footer footer footer footer';
+        }
+
+        .about {
+            grid-area: about;
+            background-color: lightgreen;
+        }
+        
+
+        .title {
+            grid-area: title;
+            background-color: lightsteelblue;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: mediumorchid;
+        }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .about div {
+            background-color: midnightblue;
+            margin: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>Home</div>
+        <div>Search</div>
+        <div class="logout">Logout</div>
+    </header>
+    <div class="container">
+        <div class="about">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="title">2</div>
+        <footer></footer>
+    </div>
+</body>
+</html>
