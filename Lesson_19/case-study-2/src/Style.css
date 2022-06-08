@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
 * {
   box-sizing: border-box;
 }
@@ -324,6 +325,8 @@ header .container .col-md-7 p {
   border-radius: 340px;
   width: 60%;
 }
+
+
 
 footer {
   background: rgba(0, 0, 0, 0.815);

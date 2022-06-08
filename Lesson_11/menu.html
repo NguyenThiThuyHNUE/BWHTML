@@ -5,11 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="menu.css">
+    <!-- <link rel="stylesheet" href="menu.css"> -->
+    <style>
+        #menu li {
+           list-style: none;
+           background-color: black;
+           width: 100px;
+           position: relative;
+        }
+
+        #menu ul ul {
+            position:absolute;
+            visibility: hidden;
+            top:50px;
+            left:160px;
+        }
+        #menu ul li:hover ul {
+            visibility: visible;
+        }
+
+    </style>
 </head>
 <body>
     <h3>ACCP i10</h3>
-    <div id="menu">
+    <!-- <div id="menu">
         <ul>
             <li><a href="#">Sem 1</a>
                 <ul>
@@ -31,6 +50,20 @@
             </li>
             <li><a href="#">Sem 3</a></li>
             <li><a href="#">Sem 4</a></li>
+        </ul>
+    </div> -->
+
+    <div id="menu">
+        <ul>
+            <li><a href="">menu1</a>
+                <ul>
+                    <li>menu11</li>
+                    <li>menu12</li>
+                </ul>
+            </li>
+            <li>
+                <a href="">menu2</a>
+            </li>
         </ul>
     </div>
 </body>

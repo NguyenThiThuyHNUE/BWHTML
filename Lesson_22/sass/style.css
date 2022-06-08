@@ -1,0 +1,22 @@
+.header__nav {
+  float: right;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.header__nav .nav {
+  float: left;
+  margin-left: 35px;
+}
+.header__nav .nav__link {
+  color: #575656;
+  font-weight: bold;
+}
+.header__nav .nav__link--btn {
+  color: #61c0bd;
+  border: 2px solid #b5e1e0;
+  padding: 8px 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
+

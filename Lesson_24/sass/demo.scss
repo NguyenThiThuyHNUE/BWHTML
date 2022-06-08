@@ -1,0 +1,30 @@
+@mixin error($bgColor){
+    border: 1px solid $bgColor;
+    background-color: #fdd;
+}
+.seriousError{
+    @include error(red);
+}
+
+.notSoSeriousError{
+    @include error(yellow);
+}
+// which compiles to:
+
+.seriousError {
+    border: 1px solid #f00;
+    background-color: red;
+}
+
+.notSoSeriousError{
+    border: 1px solid #f00;
+    background-color: yellow;
+}
+
+$color:#ffffff;
+.demo {
+background-color: $color;
+}
+
+
+

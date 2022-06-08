@@ -1,0 +1,14 @@
+$max-width:1110px;
+
+.header__logo {
+    margin-top: 30px;
+    display: inline-block;
+    img {
+      width: 150px; }
+}
+
+.demo {
+    width: $max-width;
+}
+
+@import 'responsive';

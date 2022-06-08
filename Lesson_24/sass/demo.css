@@ -1,0 +1,25 @@
+.seriousError {
+  border: 1px solid red;
+  background-color: #fdd;
+}
+
+.notSoSeriousError {
+  border: 1px solid yellow;
+  background-color: #fdd;
+}
+
+.seriousError {
+  border: 1px solid #f00;
+  background-color: red;
+}
+
+.notSoSeriousError {
+  border: 1px solid #f00;
+  background-color: yellow;
+}
+
+.demo {
+  background-color: #ffffff;
+}
+
+/*# sourceMappingURL=demo.css.map */
